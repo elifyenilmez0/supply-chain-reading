@@ -1,0 +1,12 @@
+/* Keep the site simple: this is a working research log, not a polished portfolio. */
+.quarto-title-block .quarto-title-banner { background: transparent; }
+.initial-note { color: #5f6368; }
+.status-pill { font-size: .85rem; }
+
+.note-placeholder { color: #687480; font-style: italic; border-left: 3px solid #dce4e9; padding: .45rem .8rem; background: #f7f9fa; }
+.badge-label { display: inline-block; padding: .2rem .55rem; border-radius: 1rem; font-size: .8rem; font-weight: 600; white-space: nowrap; background: #edf0f3; color: #374151; }
+.label-reading, .label-high { background: #fff0cc; color: #754c00; }
+.label-read { background: #def2e6; color: #205b3b; }
+.label-skimmed, .label-medium { background: #e3edfa; color: #294f7e; }
+table { font-size: .92rem; }
+td:first-child a { font-weight: 600; }
