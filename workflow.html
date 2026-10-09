@@ -169,8 +169,9 @@ ul.task-list li input[type="checkbox"] {
 <li>Format: <strong>Zotero RDF</strong>. <strong>Export Notes</strong> açık, <strong>Export Files</strong> kapalı olsun.</li>
 <li>Dosyayı <strong>Downloads → supply-chain-reading-zotero → zotero-inbox</strong> içine kaydet. Her seferinde yeni bir ad kullanabilirsin; en yeni RDF okunur.</li>
 <li><strong>Downloads → supply-chain-reading-zotero → Update-site.command</strong> dosyasına çift tıkla.</li>
-<li>Site tarayıcıda açılır. Makale sayfasındaki <strong>Notes from Zotero</strong> bölümünü kontrol et.</li>
+<li>Yerel site tarayıcıda açılır. Makale sayfasındaki <strong>Notes from Zotero</strong> bölümünü kontrol et.</li>
 </ol>
+<p>İnternetteki siteyi de güncellemek için <strong>Update-site.command</strong> yerine <strong>Publish-site.command</strong> dosyasına çift tıkla. Bu dosya notları aktarır, siteyi oluşturur ve GitHub Pages’e yükler. Yayının güncellenmesi birkaç dakika sürebilir. Terminalden aynı işlem: <code>./scripts/publish_github.sh</code>.</p>
 <p>Siteye her tuş vuruşu anında aktarılmaz. Okuma sonunda veya paylaşmadan önce güncellemek yeterli.</p>
 </section>
 <section id="okuma-durumunu-değiştirirken" class="level2">
@@ -187,7 +188,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Metin notları aktarılır; PDF’ler Zotero’da kalır. Not içindeki görseller bu aktarımda desteklenmez.</li>
 <li>Önceden yazdığım sayfa notları korunur; değişen dosyaların yedeği <strong>backups</strong> klasöründedir.</li>
 <li>Zotero’dan tamamen sildiğim notlar siteden otomatik kaldırılmaz.</li>
-<li>Bu adımlar yerel siteyi günceller. Paylaşılabilir internet sitesi için ayrıca yayınlama gerekir.</li>
+<li><strong>Update-site.command</strong> yerel siteyi, <strong>Publish-site.command</strong> internetteki siteyi günceller. İnternet adresi: <a href="https://elifyenilmez0.github.io/supply-chain-reading/" class="uri">https://elifyenilmez0.github.io/supply-chain-reading/</a>.</li>
 </ul>
 
 

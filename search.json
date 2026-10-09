@@ -18,7 +18,7 @@
     "href": "workflow.html#siteyi-güncellerken-macte",
     "title": "Okuma ve not alma",
     "section": "Siteyi güncellerken — Mac’te",
-    "text": "Siteyi güncellerken — Mac’te\n\nZotero’da reading-list koleksiyonuna sağ tıkla → Export….\nFormat: Zotero RDF. Export Notes açık, Export Files kapalı olsun.\nDosyayı Downloads → supply-chain-reading-zotero → zotero-inbox içine kaydet. Her seferinde yeni bir ad kullanabilirsin; en yeni RDF okunur.\nDownloads → supply-chain-reading-zotero → Update-site.command dosyasına çift tıkla.\nSite tarayıcıda açılır. Makale sayfasındaki Notes from Zotero bölümünü kontrol et.\n\nSiteye her tuş vuruşu anında aktarılmaz. Okuma sonunda veya paylaşmadan önce güncellemek yeterli."
+    "text": "Siteyi güncellerken — Mac’te\n\nZotero’da reading-list koleksiyonuna sağ tıkla → Export….\nFormat: Zotero RDF. Export Notes açık, Export Files kapalı olsun.\nDosyayı Downloads → supply-chain-reading-zotero → zotero-inbox içine kaydet. Her seferinde yeni bir ad kullanabilirsin; en yeni RDF okunur.\nDownloads → supply-chain-reading-zotero → Update-site.command dosyasına çift tıkla.\nYerel site tarayıcıda açılır. Makale sayfasındaki Notes from Zotero bölümünü kontrol et.\n\nİnternetteki siteyi de güncellemek için Update-site.command yerine Publish-site.command dosyasına çift tıkla. Bu dosya notları aktarır, siteyi oluşturur ve GitHub Pages’e yükler. Yayının güncellenmesi birkaç dakika sürebilir. Terminalden aynı işlem: ./scripts/publish_github.sh.\nSiteye her tuş vuruşu anında aktarılmaz. Okuma sonunda veya paylaşmadan önce güncellemek yeterli."
   },
   {
     "objectID": "workflow.html#okuma-durumunu-değiştirirken",
@@ -39,7 +39,7 @@
     "href": "workflow.html#aktarım-sınırları",
     "title": "Okuma ve not alma",
     "section": "Aktarım sınırları",
-    "text": "Aktarım sınırları\n\nMetin notları aktarılır; PDF’ler Zotero’da kalır. Not içindeki görseller bu aktarımda desteklenmez.\nÖnceden yazdığım sayfa notları korunur; değişen dosyaların yedeği backups klasöründedir.\nZotero’dan tamamen sildiğim notlar siteden otomatik kaldırılmaz.\nBu adımlar yerel siteyi günceller. Paylaşılabilir internet sitesi için ayrıca yayınlama gerekir."
+    "text": "Aktarım sınırları\n\nMetin notları aktarılır; PDF’ler Zotero’da kalır. Not içindeki görseller bu aktarımda desteklenmez.\nÖnceden yazdığım sayfa notları korunur; değişen dosyaların yedeği backups klasöründedir.\nZotero’dan tamamen sildiğim notlar siteden otomatik kaldırılmaz.\nUpdate-site.command yerel siteyi, Publish-site.command internetteki siteyi günceller. İnternet adresi: https://elifyenilmez0.github.io/supply-chain-reading/."
   },
   {
     "objectID": "notes/trade-and-domestic-production-networks.html",
