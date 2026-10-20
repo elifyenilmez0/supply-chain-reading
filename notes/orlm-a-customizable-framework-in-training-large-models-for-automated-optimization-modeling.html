@@ -126,8 +126,17 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#what-i-got-from-this" id="toc-what-i-got-from-this" class="nav-link active" data-scroll-target="#what-i-got-from-this">What I got from this</a></li>
+  <li><a href="#connection-to-the-other-papers" id="toc-connection-to-the-other-papers" class="nav-link" data-scroll-target="#connection-to-the-other-papers">Connection to the other papers</a></li>
+  <li><a href="#ai-connection" id="toc-ai-connection" class="nav-link" data-scroll-target="#ai-connection">AI connection</a></li>
+  <li><a href="#a-limit-to-keep-in-mind" id="toc-a-limit-to-keep-in-mind" class="nav-link" data-scroll-target="#a-limit-to-keep-in-mind">A limit to keep in mind</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -157,80 +166,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- field-map:start -->
-<h2 class="anchored">
-Place in the 38-item field map
-</h2>
-<p>
-<em>20 October 2026. Assisted discussion draft; to review in my own reading. This note maps the wider field before topic selection. No project direction is attributed to Yannis.</em>
-</p>
-<p>
-<strong>Original selection:</strong> Skim. <strong>Primary area:</strong> Data-to-decision and AI-enabled operations. <strong>Role:</strong> LLM-assisted optimization formulation.
-</p>
-<p>
-<strong>Access level:</strong> Selected full text. <strong>Reading scope:</strong> arXiv v5 pp.&nbsp;1–3, 6–7, 20–23 and selected limitations discussion; not a benchmark replication. The paper also reports a bounded human-assistance study, so it should not be described as benchmark-only or no human evidence. No economy-wide productivity inference.
-</p>
-<p>
-<a href="https://arxiv.org/abs/2405.17743v5">Source consulted / primary record</a> · <a href="https://elifyenilmez0.github.io/supply-chain-reading/field-map.html">Full field map</a>
-</p>
-<h2 class="anchored">
-The question I want to understand
-</h2>
-<p>
-Can trained open models turn problem descriptions into optimization models and code?
-</p>
-<h2 class="anchored">
-My takeaway
-</h2>
-<p>
-OR-Instruct generates training examples and ORLM learns formulation/code tasks, with IndustryOR and other benchmarks. The key distinction for me is translating a business description correctly before a solver optimizes it.
-</p>
-<h2 class="anchored">
-Where OM enters
-</h2>
-<p>
-Potential questions concern expert time, validation, deployment and which users benefit; the model-generation task itself is principally a methods contribution.
-</p>
-<h2 class="anchored">
-What AI changes — and what is not established here
-</h2>
-<p>
-This is generative AI changing access to modeling. A feasible solver result can still solve the wrong business problem.
-</p>
-<h2 class="anchored">
-Connection to the other readings
-</h2>
-<p>
-OptiGuide supports what-if interaction around an existing model; SPO trains predicted costs. They operate at different steps.
-</p>
-<h2 class="anchored">
-What I should not overclaim
-</h2>
-<p>
-arXiv v5 pp.&nbsp;1–3, 6–7, 20–23 and selected limitations discussion; not a benchmark replication. The paper also reports a bounded human-assistance study, so it should not be described as benchmark-only or no human evidence. No economy-wide productivity inference.
-</p>
-<!-- field-map:end -->
-<p><a href="../index.html">← Reading list</a> · <a href="../field-map.html">Field map</a> · <a href="../meeting-with-yannis.html">Meeting</a></p>
+<p><a href="../index.html">← Reading list</a> · <a href="../field-map.html">Field map</a> · <a href="../meeting-with-yannis.html">Meeting notes</a></p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Note</span>Original reason for selection
+<span class="screen-reader-only">Note</span>Source and reading coverage
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>I want to see what ‘LLM writes an optimization model’ means in an OR paper.</p>
-<p>Can an open-source LLM be trained to turn a natural-language description of a business problem into a correct optimization model and solver code?</p>
-<p>This is the original selection description; the scoped field note above is the current assessment.</p>
+<p>Source / coverage: arXiv v5 pp.&nbsp;1–3, 6–7, 20–23 and selected limitations discussion; not a benchmark replication. The paper also reports a bounded human-assistance study, so it should not be described as benchmark-only or no human evidence. No economy-wide productivity inference.</p>
+<p><a href="https://arxiv.org/abs/2405.17743v5">Source</a></p>
 </div>
 </div>
 </div>
+<!-- zotero-notes:start -->
+<section id="what-i-got-from-this" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-got-from-this">What I got from this</h2>
+<p>ORLM is trying to make the step from a business description to a mathematical model less expensive. That is different from solving a correctly specified model. The paper includes benchmarks and a small human-assistance study, but difficult formulations remain a problem.</p>
+</section>
+<section id="connection-to-the-other-papers" class="level2">
+<h2 class="anchored" data-anchor-id="connection-to-the-other-papers">Connection to the other papers</h2>
+<p>OptiGuide supports what-if interaction around an existing model; SPO trains predicted costs. They operate at different steps. Potential questions concern expert time, validation, deployment and which users benefit; the model-generation task itself is principally a methods contribution.</p>
+</section>
+<section id="ai-connection" class="level2">
+<h2 class="anchored" data-anchor-id="ai-connection">AI connection</h2>
+<p>This is generative AI changing access to modeling. A feasible solver result can still solve the wrong business problem.</p>
+</section>
+<section id="a-limit-to-keep-in-mind" class="level2">
+<h2 class="anchored" data-anchor-id="a-limit-to-keep-in-mind">A limit to keep in mind</h2>
+<p>arXiv v5 pp.&nbsp;1–3, 6–7, 20–23 and selected limitations discussion; not a benchmark replication. The paper also reports a bounded human-assistance study, so it should not be described as benchmark-only or no human evidence. No economy-wide productivity inference.</p>
+<p><a href="https://arxiv.org/abs/2405.17743v5">Source</a> · <a href="https://elifyenilmez0.github.io/supply-chain-reading/field-map.html">Reading map</a></p>
+<!-- zotero-notes:end -->
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

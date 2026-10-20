@@ -131,11 +131,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#my-short-version" id="toc-my-short-version" class="nav-link active" data-scroll-target="#my-short-version">My short version</a></li>
-  <li><a href="#how-the-paper-gets-there" id="toc-how-the-paper-gets-there" class="nav-link" data-scroll-target="#how-the-paper-gets-there">How the paper gets there</a></li>
-  <li><a href="#why-i-am-keeping-it-for-an-om-project" id="toc-why-i-am-keeping-it-for-an-om-project" class="nav-link" data-scroll-target="#why-i-am-keeping-it-for-an-om-project">Why I am keeping it for an OM project</a></li>
-  <li><a href="#what-i-still-need-to-be-careful-about" id="toc-what-i-still-need-to-be-careful-about" class="nav-link" data-scroll-target="#what-i-still-need-to-be-careful-about">What I still need to be careful about</a></li>
-  <li><a href="#questions-for-yannis" id="toc-questions-for-yannis" class="nav-link" data-scroll-target="#questions-for-yannis">Questions for Yannis</a></li>
+  <li><a href="#what-i-got-from-this" id="toc-what-i-got-from-this" class="nav-link active" data-scroll-target="#what-i-got-from-this">What I got from this</a></li>
+  <li><a href="#how-they-study-it" id="toc-how-they-study-it" class="nav-link" data-scroll-target="#how-they-study-it">How they study it</a></li>
+  <li><a href="#connection-to-the-other-papers" id="toc-connection-to-the-other-papers" class="nav-link" data-scroll-target="#connection-to-the-other-papers">Connection to the other papers</a></li>
+  <li><a href="#a-point-i-need-to-check" id="toc-a-point-i-need-to-check" class="nav-link" data-scroll-target="#a-point-i-need-to-check">A point I need to check</a></li>
+  <li><a href="#a-limit-to-keep-in-mind" id="toc-a-limit-to-keep-in-mind" class="nav-link" data-scroll-target="#a-limit-to-keep-in-mind">A limit to keep in mind</a></li>
+  <li><a href="#question-for-the-meeting" id="toc-question-for-the-meeting" class="nav-link" data-scroll-target="#question-for-the-meeting">Question for the meeting</a></li>
   <li><a href="#highlighted-passages-and-my-comments" id="toc-highlighted-passages-and-my-comments" class="nav-link" data-scroll-target="#highlighted-passages-and-my-comments">Highlighted passages and my comments</a></li>
   </ul>
 </nav>
@@ -174,100 +175,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- field-map:start -->
-<h2 class="anchored">
-Place in the 38-item field map
-</h2>
-<p>
-<em>20 October 2026. Assisted discussion draft; to review in my own reading. This note maps the wider field before topic selection. No project direction is attributed to Yannis.</em>
-</p>
-<p>
-<strong>Original selection:</strong> Read closely. <strong>Primary area:</strong> Data-to-decision and AI-enabled operations. <strong>Role:</strong> Decision-focused learning method.
-</p>
-<p>
-<strong>Access level:</strong> Selected full text. <strong>Reading scope:</strong> Framework, illustrative routing example, SPO+ construction/consistency statement, experiments and conclusion. Proofs not independently checked.
-</p>
-<p>
-<strong>Source/version:</strong> Author manuscript, arXiv 1710.08005v5, November 19, 2020; library record says 2022.
-</p>
-<p>
-<a href="https://doi.org/10.1287/mnsc.2020.3922">Source consulted / primary record</a> · <a href="https://elifyenilmez0.github.io/supply-chain-reading/field-map.html">Full field map</a>
-</p>
-<h2 class="anchored">
-The question I want to understand
-</h2>
-<p>
-Should training minimize prediction error or the cost of the decision it induces?
-</p>
-<h2 class="anchored">
-My takeaway
-</h2>
-<p>
-An error matters when it changes an action and makes that action costly. SPO changes the learning objective while preserving a predict-then-optimize deployment workflow.
-</p>
-<h2 class="anchored">
-Where OM enters
-</h2>
-<p>
-Evaluate supplier, inventory or routing decisions using realized costs, service and regret, not accuracy alone.
-</p>
-<h2 class="anchored">
-What AI changes — and what is not established here
-</h2>
-<p>
-This is a learning/optimization bridge established before the recent LLM wave. SPO+ is a tractable surrogate, not a chatbot or autonomous planner.
-</p>
-<h2 class="anchored">
-Connection to the other readings
-</h2>
-<p>
-Ban–Rudin learns feature-dependent inventory actions; Bertsimas–Kallus uses covariates in conditional optimization. ORLM instead produces a formulation/code; OptiGuide supports questions around a solver.
-</p>
-<h2 class="anchored">
-A question Yannis may ask
-</h2>
-<p>
-Can SPO solve uncertainty about whether a backup actually exists?
-</p>
-<h2 class="anchored">
-How I would answer at this stage
-</h2>
-<p>
-The base framework predicts linear objective coefficients on a known feasible set. Missing capacity or unknown constraints are not automatically covered. I must check that the mathematical representation matches the real uncertainty.
-</p>
-<h2 class="anchored">
-What I should not overclaim
-</h2>
-<p>
-Conditional consistency results and numerical evidence do not guarantee superiority under arbitrary distribution shift or uncertain feasibility.
-</p>
-<!-- field-map:end -->
-<p><a href="../index.html">← Reading list</a> · <a href="../meeting-with-yannis.html">Meeting with Yannis</a></p>
-<p><strong>Elmachtoub, Grigas · 2022 · Management Science</strong></p>
-<p><a href="https://doi.org/10.1287/mnsc.2020.3922">Source / paper link</a></p>
+<p><a href="../index.html">← Reading list</a> · <a href="../field-map.html">Field map</a> · <a href="../meeting-with-yannis.html">Meeting notes</a></p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Source and reading coverage
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Source / coverage: Author manuscript, arXiv 1710.08005v5, November 19, 2020; library record says 2022. Framework, illustrative routing example, SPO+ construction/consistency statement, experiments and conclusion. Proofs not independently checked.</p>
+<p><a href="https://doi.org/10.1287/mnsc.2020.3922">Source</a></p>
+</div>
+</div>
+</div>
 <!-- zotero-notes:start -->
-<p><em>Discussion draft, 20 October 2026. Prepared with reading assistance; to review before the meeting.</em></p>
-<p><strong>Source/version:</strong> Author manuscript, arXiv 1710.08005v5, November 19, 2020; library record says 2022.</p>
-<p><strong>Reading scope:</strong> Framework, illustrative routing example, SPO+ construction/consistency statement, experiments and conclusion. Proofs not independently checked.</p>
-<section id="my-short-version" class="level2">
-<h2 class="anchored" data-anchor-id="my-short-version">My short version</h2>
-<p>A more accurate prediction need not lead to a better decision. If a small error changes which supplier or route I choose, it can matter much more than a large error that leaves the choice unchanged. SPO measures the cost of the induced decision rather than ordinary prediction error. The practical appeal is that the final workflow can still be predict, then optimize; the training objective is what changes (PDF pp.&nbsp;1–5, 14).</p>
+<section id="what-i-got-from-this" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-got-from-this">What I got from this</h2>
+<p>A small prediction error can be costly if it changes the decision, while a larger error may leave the decision unchanged. SPO trains with that distinction in mind. The known-feasible-set assumption is something I need to watch if I try to use it for uncertain supply capacity.</p>
 </section>
-<section id="how-the-paper-gets-there" class="level2">
-<h2 class="anchored" data-anchor-id="how-the-paper-gets-there">How the paper gets there</h2>
+<section id="how-they-study-it" class="level2">
+<h2 class="anchored" data-anchor-id="how-they-study-it">How they study it</h2>
 <p>The framework predicts coefficients in a linear objective over a known feasible set. Because the true SPO loss is difficult and potentially discontinuous, the authors derive the convex SPO+ surrogate and give consistency results under distributional conditions. Shortest-path and portfolio experiments compare it with least squares, absolute loss and random forests. The reported advantages are strongest under model misspecification; it is not a theorem that SPO+ beats all predictors in all settings (PDF pp.&nbsp;26–31).</p>
 </section>
-<section id="why-i-am-keeping-it-for-an-om-project" class="level2">
-<h2 class="anchored" data-anchor-id="why-i-am-keeping-it-for-an-om-project">Why I am keeping it for an OM project</h2>
-<p>For supply-chain research, I would use this to evaluate whether extra network information changes a sourcing or inventory action. Predicting an upstream link more accurately is only useful if the decision improves. A project could compare an audited extraction pipeline, a simple exposure score and decision-focused learning under missing tier-2 links. The outcome should be cost, fill rate and tail shortage, not just link-prediction accuracy.</p>
+<section id="connection-to-the-other-papers" class="level2">
+<h2 class="anchored" data-anchor-id="connection-to-the-other-papers">Connection to the other papers</h2>
+<p>Ban–Rudin learns feature-dependent inventory actions; Bertsimas–Kallus uses covariates in conditional optimization. ORLM instead produces a formulation/code; OptiGuide supports questions around a solver. Evaluate supplier, inventory or routing decisions using realized costs, service and regret, not accuracy alone.</p>
 </section>
-<section id="what-i-still-need-to-be-careful-about" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-still-need-to-be-careful-about">What I still need to be careful about</h2>
+<section id="a-point-i-need-to-check" class="level2">
+<h2 class="anchored" data-anchor-id="a-point-i-need-to-check">A point I need to check</h2>
+<p>This is a learning/optimization bridge established before the recent LLM wave. SPO+ is a tractable surrogate, not a chatbot or autonomous planner.</p>
+</section>
+<section id="a-limit-to-keep-in-mind" class="level2">
+<h2 class="anchored" data-anchor-id="a-limit-to-keep-in-mind">A limit to keep in mind</h2>
 <p>A hidden network can change the feasible set or disruption constraints, whereas the basic framework focuses on unknown objective coefficients with known constraints. I cannot treat the original SPO guarantees as solving uncertain feasibility, rare correlated failures or distribution shift. The paper already suggests constraints and nonlinear objectives as future directions; later work must be checked.</p>
 </section>
-<section id="questions-for-yannis" class="level2">
-<h2 class="anchored" data-anchor-id="questions-for-yannis">Questions for Yannis</h2>
-<p>Can our uncertainty be represented honestly as an objective cost, or is it really about whether capacity exists? What simple, strong baseline would a decision-focused model need to beat to justify its extra complexity?</p>
+<section id="question-for-the-meeting" class="level2">
+<h2 class="anchored" data-anchor-id="question-for-the-meeting">Question for the meeting</h2>
+<p>Would uncertain backup capacity fit the original SPO framework? The base framework predicts linear objective coefficients on a known feasible set. Missing capacity or unknown constraints are not automatically covered. I must check that the mathematical representation matches the real uncertainty.</p>
 <!-- zotero-notes:end -->
 <!-- zotero-highlights:start -->
 </section>
@@ -328,7 +277,7 @@ handling unknown parameters in the constraints
 </div>
 <!-- zotero-highlights:end -->
 <div class="callout callout-style-default callout-note callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -337,7 +286,7 @@ handling unknown parameters in the constraints
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p>I mainly want the basic predict-then-optimize idea and how it changes what the prediction model is trained for.</p>
 </div>
