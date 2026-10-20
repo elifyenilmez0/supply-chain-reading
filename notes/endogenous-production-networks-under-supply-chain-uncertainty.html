@@ -100,6 +100,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Reading list</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../meeting-with-yannis.html"> 
+<span class="menu-text">Meeting with Yannis</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../topics.html"> 
 <span class="menu-text">Topics</span></a>
   </li>  
@@ -123,17 +127,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-i-added-it" id="toc-why-i-added-it" class="nav-link active" data-scroll-target="#why-i-added-it">Why I added it</a></li>
-  <li><a href="#initial-note" id="toc-initial-note" class="nav-link" data-scroll-target="#initial-note">Initial note</a></li>
-  <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question">Research question</a></li>
-  <li><a href="#setup-data" id="toc-setup-data" class="nav-link" data-scroll-target="#setup-data">Setup / data</a></li>
-  <li><a href="#main-mechanism-identification" id="toc-main-mechanism-identification" class="nav-link" data-scroll-target="#main-mechanism-identification">Main mechanism / identification</a></li>
-  <li><a href="#main-results" id="toc-main-results" class="nav-link" data-scroll-target="#main-results">Main results</a></li>
-  <li><a href="#what-i-found-interesting" id="toc-what-i-found-interesting" class="nav-link" data-scroll-target="#what-i-found-interesting">What I found interesting</a></li>
-  <li><a href="#questions-i-still-have" id="toc-questions-i-still-have" class="nav-link" data-scroll-target="#questions-i-still-have">Questions I still have</a></li>
-  <li><a href="#connections-to-other-papers" id="toc-connections-to-other-papers" class="nav-link" data-scroll-target="#connections-to-other-papers">Connections to other papers</a></li>
-  <li><a href="#notes-after-meeting-with-yannis" id="toc-notes-after-meeting-with-yannis" class="nav-link" data-scroll-target="#notes-after-meeting-with-yannis">Notes after meeting with Yannis</a></li>
-  <li><a href="#reading-log" id="toc-reading-log" class="nav-link" data-scroll-target="#reading-log">Reading log</a></li>
+  <li><a href="#my-short-version" id="toc-my-short-version" class="nav-link active" data-scroll-target="#my-short-version">My short version</a></li>
+  <li><a href="#how-the-paper-gets-there" id="toc-how-the-paper-gets-there" class="nav-link" data-scroll-target="#how-the-paper-gets-there">How the paper gets there</a></li>
+  <li><a href="#why-i-am-keeping-it-for-an-om-project" id="toc-why-i-am-keeping-it-for-an-om-project" class="nav-link" data-scroll-target="#why-i-am-keeping-it-for-an-om-project">Why I am keeping it for an OM project</a></li>
+  <li><a href="#what-i-still-need-to-be-careful-about" id="toc-what-i-still-need-to-be-careful-about" class="nav-link" data-scroll-target="#what-i-still-need-to-be-careful-about">What I still need to be careful about</a></li>
+  <li><a href="#questions-for-yannis" id="toc-questions-for-yannis" class="nav-link" data-scroll-target="#questions-for-yannis">Questions for Yannis</a></li>
+  <li><a href="#highlighted-passages-and-my-comments" id="toc-highlighted-passages-and-my-comments" class="nav-link" data-scroll-target="#highlighted-passages-and-my-comments">Highlighted passages and my comments</a></li>
   </ul>
 </nav>
     </div>
@@ -157,6 +156,12 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 20, 2026</p>
+    </div>
+  </div>
     
   </div>
   
@@ -165,76 +170,107 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../index.html">← Reading list</a></p>
-<p>Edit this file in <strong>RStudio → Visual</strong>. Replace the placeholder text with your own notes, then save. The browser shows the saved notes.</p>
+<p><a href="../index.html">← Reading list</a> · <a href="../meeting-with-yannis.html">Meeting with Yannis</a></p>
+<p><strong>Kopytov, Mishra, Nimark, Taschereau-Dumouchel · 2024 · Econometrica</strong></p>
 <p><a href="https://doi.org/10.3982/ECTA20629">Source / paper link</a></p>
-<section id="why-i-added-it" class="level2">
-<h2 class="anchored" data-anchor-id="why-i-added-it">Why I added it</h2>
-<p>Feels close to Tomlin (2006), but at the network/general-equilibrium level.</p>
+<!-- zotero-notes:start -->
+<p><em>Discussion draft, 20 October 2026. Prepared with reading assistance; to review before the meeting.</em></p>
+<p><strong>Source/version:</strong> Published article, Econometrica 92(5), September 2024, 1621–1659.</p>
+<p><strong>Reading scope:</strong> Introduction; technique choice; network/GDP results; calibration and model-free evidence, PDF pp.&nbsp;31–37. Proofs not independently checked.</p>
+<section id="my-short-version" class="level2">
+<h2 class="anchored" data-anchor-id="my-short-version">My short version</h2>
+<p>I read this as a warning against measuring resilience only by output volatility. Firms can move toward safer suppliers, reducing volatility but also giving up productivity. In this model that can be an efficient trade-off, rather than a failure to maximize GDP. The timing is important: firms choose a production technique before productivity shocks are known. Their decisions then reshape both the weights and the links in the network (PDF pp.&nbsp;1–3). This gives a different explanation for network change from the bargaining externality in Acemoglu and Tahbaz-Salehi.</p>
 </section>
-<section id="initial-note" class="level2">
-<h2 class="anchored" data-anchor-id="initial-note">Initial note</h2>
+<section id="how-the-paper-gets-there" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-paper-gets-there">How the paper gets there</h2>
+<p>The model has competitive firms, a risk-averse representative household and technique choices that change input shares. It characterizes an efficient equilibrium. A basic U.S. calibration uses 37 BEA sectors, 1948–2020. Additional firm-level evidence uses Compustat/stock volatility and FactSet links: riskier suppliers are more likely to lose relationships. The IV exercises address endogeneity but depend on the instruments' exclusion restrictions. Stock volatility is a proxy for uncertainty, not a direct measure of delivery failure (PDF pp.&nbsp;31–36).</p>
+</section>
+<section id="why-i-am-keeping-it-for-an-om-project" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-am-keeping-it-for-an-om-project">Why I am keeping it for an OM project</h2>
+<p>For a firm-level OM question, I would separate expected cost, disruption risk and the time needed to qualify a replacement. How much should a buyer pay for stability when switching takes months and risk estimates are noisy? An interesting outcome is the cost of stability, not just whether a firm diversifies. I could compare a static safe-supplier choice with a dynamic policy that learns and keeps a backup option.</p>
+</section>
+<section id="what-i-still-need-to-be-careful-about" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-still-need-to-be-careful-about">What I still need to be careful about</h2>
+<p>The calibration is deliberately stylized and explains only part of network variation. One-year technique adjustment and Cobb–Douglas structure are strong restrictions. I should not read a fall in expected GDP as a fall in welfare. Nor should I assume that the model's efficient flight to safety describes every real supply chain (PDF pp.&nbsp;32–34).</p>
+</section>
+<section id="questions-for-yannis" class="level2">
+<h2 class="anchored" data-anchor-id="questions-for-yannis">Questions for Yannis</h2>
+<p>Could qualification delays make an otherwise sensible flight to safety too slow during a disruption? Is a narrower empirical project on relationship survival feasible with data our department can actually access?</p>
+<!-- zotero-notes:end -->
+<!-- zotero-highlights:start -->
+</section>
+<section id="highlighted-passages-and-my-comments" class="level2">
+<h2 class="anchored" data-anchor-id="highlighted-passages-and-my-comments">Highlighted passages and my comments</h2>
+<p>Short passages from the PDF in my Zotero library. <strong>PDF page</strong> counts from the beginning of that file; the printed page is shown separately. Line-break hyphenation and PDF text spacing are normalized for readability.</p>
+<div class="reading-highlight highlight-mechanism">
+<p class="highlight-meta">
+<strong>Mechanism</strong> · PDF p.&nbsp;2 · printed p.&nbsp;1622
+</p>
 <blockquote class="blockquote">
-<p>This is a preliminary note from the abstract/introduction. I will revise it after reading.</p>
+<p>
+We prove that the unique equilibrium in this environment is efficient
+</p>
 </blockquote>
-<p>Firms choose suppliers knowing that supply disturbances raise costs. When uncertainty rises, producers switch to more stable suppliers even at higher prices; the rewired network is less volatile but produces less output.</p>
-</section>
-<section id="research-question" class="level2">
-<h2 class="anchored" data-anchor-id="research-question">Research question</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="setup-data" class="level2">
-<h2 class="anchored" data-anchor-id="setup-data">Setup / data</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="main-mechanism-identification" class="level2">
-<h2 class="anchored" data-anchor-id="main-mechanism-identification">Main mechanism / identification</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="main-results" class="level2">
-<h2 class="anchored" data-anchor-id="main-results">Main results</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="what-i-found-interesting" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-found-interesting">What I found interesting</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="questions-i-still-have" class="level2">
-<h2 class="anchored" data-anchor-id="questions-i-still-have">Questions I still have</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="connections-to-other-papers" class="level2">
-<h2 class="anchored" data-anchor-id="connections-to-other-papers">Connections to other papers</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="notes-after-meeting-with-yannis" class="level2">
-<h2 class="anchored" data-anchor-id="notes-after-meeting-with-yannis">Notes after meeting with Yannis</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="reading-log" class="level2">
-<h2 class="anchored" data-anchor-id="reading-log">Reading log</h2>
-<ul>
-<li>Started: <em>Add a date when you begin.</em></li>
-<li>Finished: <em>Add a date when you finish.</em></li>
-</ul>
-<!-- zotero-reading:start -->
-<div class="callout callout-style-default callout-tip callout-titled">
+<p>
+<strong>My comment.</strong> Important contrast: flight to safety can be efficient here. Do not import the inefficiency conclusion from another model.
+</p>
+</div>
+<div class="reading-highlight highlight-finding">
+<p class="highlight-meta">
+<strong>Finding</strong> · PDF p.&nbsp;3 · printed p.&nbsp;1623
+</p>
+<blockquote class="blockquote">
+<p>
+less productive producers gain in importance
+</p>
+</blockquote>
+<p>
+<strong>My comment.</strong> Cost of stability: safer sourcing can lower average productivity as well as volatility.
+</p>
+</div>
+<div class="reading-highlight highlight-limit">
+<p class="highlight-meta">
+<strong>Scope / limitation</strong> · PDF p.&nbsp;34 · printed p.&nbsp;1654
+</p>
+<blockquote class="blockquote">
+<p>
+the time it takes to retool a factory varies significantly by industry
+</p>
+</blockquote>
+<p>
+<strong>My comment.</strong> My extension question: what changes with heterogeneous qualification and switching delays?
+</p>
+</div>
+<div class="reading-highlight highlight-evidence">
+<p class="highlight-meta">
+<strong>Evidence</strong> · PDF p.&nbsp;36 · printed p.&nbsp;1656
+</p>
+<blockquote class="blockquote">
+<p>
+a doubling in volatility associated with a 12 percentage point increase
+</p>
+</blockquote>
+<p>
+<strong>My comment.</strong> Evidence to revisit: this is an IV estimate about relationship destruction, not a direct delivery-failure rate.
+</p>
+</div>
+<!-- zotero-highlights:end -->
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Read in Zotero
+<span class="screen-reader-only">Note</span>Why I originally added this
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>A PDF is attached to this paper in my Zotero reading-list collection. I read and annotate there, then export my notes to this page. See <a href="../workflow.html">the reading workflow</a>.</p>
+<p>Feels close to Tomlin (2006), but at the network/general-equilibrium level.</p>
 </div>
 </div>
 </div>
-<!-- zotero-reading:end -->
 
 
 </section>

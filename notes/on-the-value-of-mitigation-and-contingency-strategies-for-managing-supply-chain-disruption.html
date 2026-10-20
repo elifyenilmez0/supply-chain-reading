@@ -100,6 +100,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Reading list</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../meeting-with-yannis.html"> 
+<span class="menu-text">Meeting with Yannis</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../topics.html"> 
 <span class="menu-text">Topics</span></a>
   </li>  
@@ -123,17 +127,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-i-added-it" id="toc-why-i-added-it" class="nav-link active" data-scroll-target="#why-i-added-it">Why I added it</a></li>
-  <li><a href="#initial-note" id="toc-initial-note" class="nav-link" data-scroll-target="#initial-note">Initial note</a></li>
-  <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question">Research question</a></li>
-  <li><a href="#setup-data" id="toc-setup-data" class="nav-link" data-scroll-target="#setup-data">Setup / data</a></li>
-  <li><a href="#main-mechanism-identification" id="toc-main-mechanism-identification" class="nav-link" data-scroll-target="#main-mechanism-identification">Main mechanism / identification</a></li>
-  <li><a href="#main-results" id="toc-main-results" class="nav-link" data-scroll-target="#main-results">Main results</a></li>
-  <li><a href="#what-i-found-interesting" id="toc-what-i-found-interesting" class="nav-link" data-scroll-target="#what-i-found-interesting">What I found interesting</a></li>
-  <li><a href="#questions-i-still-have" id="toc-questions-i-still-have" class="nav-link" data-scroll-target="#questions-i-still-have">Questions I still have</a></li>
-  <li><a href="#connections-to-other-papers" id="toc-connections-to-other-papers" class="nav-link" data-scroll-target="#connections-to-other-papers">Connections to other papers</a></li>
-  <li><a href="#notes-after-meeting-with-yannis" id="toc-notes-after-meeting-with-yannis" class="nav-link" data-scroll-target="#notes-after-meeting-with-yannis">Notes after meeting with Yannis</a></li>
-  <li><a href="#reading-log" id="toc-reading-log" class="nav-link" data-scroll-target="#reading-log">Reading log</a></li>
+  <li><a href="#what-i-can-take-from-the-abstract" id="toc-what-i-can-take-from-the-abstract" class="nav-link active" data-scroll-target="#what-i-can-take-from-the-abstract">What I can take from the abstract</a></li>
+  <li><a href="#why-it-belongs-in-my-research-search" id="toc-why-it-belongs-in-my-research-search" class="nav-link" data-scroll-target="#why-it-belongs-in-my-research-search">Why it belongs in my research search</a></li>
+  <li><a href="#questions-for-yannis" id="toc-questions-for-yannis" class="nav-link" data-scroll-target="#questions-for-yannis">Questions for Yannis</a></li>
+  <li><a href="#highlighted-passages-and-my-comments" id="toc-highlighted-passages-and-my-comments" class="nav-link" data-scroll-target="#highlighted-passages-and-my-comments">Highlighted passages and my comments</a></li>
   </ul>
 </nav>
     </div>
@@ -157,6 +154,12 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 20, 2026</p>
+    </div>
+  </div>
     
   </div>
   
@@ -165,58 +168,48 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../index.html">← Reading list</a></p>
-<p>Edit this file in <strong>RStudio → Visual</strong>. Replace the placeholder text with your own notes, then save. The browser shows the saved notes.</p>
+<p><a href="../index.html">← Reading list</a> · <a href="../meeting-with-yannis.html">Meeting with Yannis</a></p>
+<p><strong>Tomlin · 2006 · Management Science</strong></p>
 <p><a href="https://doi.org/10.1287/mnsc.1060.0515">Source / paper link</a></p>
-<section id="why-i-added-it" class="level2">
-<h2 class="anchored" data-anchor-id="why-i-added-it">Why I added it</h2>
+<!-- zotero-notes:start -->
+<p><em>Discussion draft, 20 October 2026. Prepared with reading assistance; to review before the meeting.</em></p>
+<p><strong>Source/version:</strong> Tomlin (2006), Management Science 52(5), 639–657.</p>
+<p><strong>Reading scope:</strong> Publisher abstract only. Full text was not available locally and the publisher PDF redirected to its abstract. No PDF highlights created.</p>
+<p><a href="https://pubsonline.informs.org/doi/10.1287/mnsc.1060.0515">Source consulted</a></p>
+<section id="what-i-can-take-from-the-abstract" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-can-take-from-the-abstract">What I can take from the abstract</h2>
+<p>The model compares a cheaper unreliable source with a more expensive reliable source. Inventory, reliable sourcing and contingent switching serve different purposes. The key distinction is disruption duration: the same average availability can conceal frequent short outages or rare long ones. Longer outages can favor reliable sourcing over inventory. Capacity limits, risk aversion and the backup supplier’s ability to increase volume change which combinations are attractive. These are abstract-level findings; I have not checked the full assumptions or derivations.</p>
+</section>
+<section id="why-it-belongs-in-my-research-search" class="level2">
+<h2 class="anchored" data-anchor-id="why-it-belongs-in-my-research-search">Why it belongs in my research search</h2>
+<p>Before proposing another resilience model, I need to understand this benchmark. My own possible extension would ask what happens when several buyers expect to use the same finite backup capacity during a common shock. I would choose inventory and a reservation quantity before the shock, then allocate emergency capacity afterward. That question is a proposed direction, not a gap established by this abstract.</p>
+</section>
+<section id="questions-for-yannis" class="level2">
+<h2 class="anchored" data-anchor-id="questions-for-yannis">Questions for Yannis</h2>
+<p>Which newer papers already combine shared backup capacity, correlated disruptions and reservation contracts? Can we obtain the full article through the university before building on its structural results?</p>
+<!-- zotero-notes:end -->
+<!-- zotero-highlights:start -->
+</section>
+<section id="highlighted-passages-and-my-comments" class="level2">
+<h2 class="anchored" data-anchor-id="highlighted-passages-and-my-comments">Highlighted passages and my comments</h2>
+<p>No PDF was available for annotation. This note uses the publisher abstract only.</p>
+<!-- zotero-highlights:end -->
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Note</span>Why I originally added this
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p>Older OM disruption paper that I should know before reading the newer resilience work.</p>
-</section>
-<section id="initial-note" class="level2">
-<h2 class="anchored" data-anchor-id="initial-note">Initial note</h2>
-<blockquote class="blockquote">
-<p>This is a preliminary note from the abstract/introduction. I will revise it after reading.</p>
-</blockquote>
-<p>Facing an unreliable cheap supplier and a reliable but expensive one, when should a firm mitigate in advance (inventory, dual sourcing) versus keep a contingency (rerouting to the reliable supplier after a disruption)?</p>
-</section>
-<section id="research-question" class="level2">
-<h2 class="anchored" data-anchor-id="research-question">Research question</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="setup-data" class="level2">
-<h2 class="anchored" data-anchor-id="setup-data">Setup / data</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="main-mechanism-identification" class="level2">
-<h2 class="anchored" data-anchor-id="main-mechanism-identification">Main mechanism / identification</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="main-results" class="level2">
-<h2 class="anchored" data-anchor-id="main-results">Main results</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="what-i-found-interesting" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-found-interesting">What I found interesting</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="questions-i-still-have" class="level2">
-<h2 class="anchored" data-anchor-id="questions-i-still-have">Questions I still have</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="connections-to-other-papers" class="level2">
-<h2 class="anchored" data-anchor-id="connections-to-other-papers">Connections to other papers</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="notes-after-meeting-with-yannis" class="level2">
-<h2 class="anchored" data-anchor-id="notes-after-meeting-with-yannis">Notes after meeting with Yannis</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="reading-log" class="level2">
-<h2 class="anchored" data-anchor-id="reading-log">Reading log</h2>
-<ul>
-<li>Started: <em>Add a date when you begin.</em></li>
-<li>Finished: <em>Add a date when you finish.</em></li>
-</ul>
+</div>
+</div>
+</div>
 
 
 </section>

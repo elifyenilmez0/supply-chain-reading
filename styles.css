@@ -10,3 +10,15 @@
 .label-skimmed, .label-medium { background: #e3edfa; color: #294f7e; }
 table { font-size: .92rem; }
 td:first-child a { font-weight: 600; }
+
+/* Annotated excerpts, matched to the colors used in Zotero. */
+.reading-highlight { margin: 1.2rem 0; padding: .9rem 1.1rem; border-left: 4px solid var(--highlight-color); border-radius: 0 .3rem .3rem 0; background: #f8f9fa; }
+.reading-highlight p:last-child { margin-bottom: 0; }
+.reading-highlight blockquote { color: #243442; border: 0; padding: 0; margin: .6rem 0; }
+.highlight-meta { font-size: .85rem; color: #59636e; margin-bottom: .5rem; }
+.highlight-finding { --highlight-color: #d6aa00; }
+.highlight-mechanism { --highlight-color: #5fb236; }
+.highlight-evidence { --highlight-color: #2ea8e5; }
+.highlight-limit { --highlight-color: #a28ae5; }
+.highlight-question { --highlight-color: #f19837; }
+@media (max-width: 600px) { .reading-highlight { padding: .7rem .8rem; } }

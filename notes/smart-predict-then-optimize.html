@@ -100,6 +100,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Reading list</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../meeting-with-yannis.html"> 
+<span class="menu-text">Meeting with Yannis</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../topics.html"> 
 <span class="menu-text">Topics</span></a>
   </li>  
@@ -123,17 +127,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-i-added-it" id="toc-why-i-added-it" class="nav-link active" data-scroll-target="#why-i-added-it">Why I added it</a></li>
-  <li><a href="#initial-note" id="toc-initial-note" class="nav-link" data-scroll-target="#initial-note">Initial note</a></li>
-  <li><a href="#research-question" id="toc-research-question" class="nav-link" data-scroll-target="#research-question">Research question</a></li>
-  <li><a href="#setup-data" id="toc-setup-data" class="nav-link" data-scroll-target="#setup-data">Setup / data</a></li>
-  <li><a href="#main-mechanism-identification" id="toc-main-mechanism-identification" class="nav-link" data-scroll-target="#main-mechanism-identification">Main mechanism / identification</a></li>
-  <li><a href="#main-results" id="toc-main-results" class="nav-link" data-scroll-target="#main-results">Main results</a></li>
-  <li><a href="#what-i-found-interesting" id="toc-what-i-found-interesting" class="nav-link" data-scroll-target="#what-i-found-interesting">What I found interesting</a></li>
-  <li><a href="#questions-i-still-have" id="toc-questions-i-still-have" class="nav-link" data-scroll-target="#questions-i-still-have">Questions I still have</a></li>
-  <li><a href="#connections-to-other-papers" id="toc-connections-to-other-papers" class="nav-link" data-scroll-target="#connections-to-other-papers">Connections to other papers</a></li>
-  <li><a href="#notes-after-meeting-with-yannis" id="toc-notes-after-meeting-with-yannis" class="nav-link" data-scroll-target="#notes-after-meeting-with-yannis">Notes after meeting with Yannis</a></li>
-  <li><a href="#reading-log" id="toc-reading-log" class="nav-link" data-scroll-target="#reading-log">Reading log</a></li>
+  <li><a href="#my-short-version" id="toc-my-short-version" class="nav-link active" data-scroll-target="#my-short-version">My short version</a></li>
+  <li><a href="#how-the-paper-gets-there" id="toc-how-the-paper-gets-there" class="nav-link" data-scroll-target="#how-the-paper-gets-there">How the paper gets there</a></li>
+  <li><a href="#why-i-am-keeping-it-for-an-om-project" id="toc-why-i-am-keeping-it-for-an-om-project" class="nav-link" data-scroll-target="#why-i-am-keeping-it-for-an-om-project">Why I am keeping it for an OM project</a></li>
+  <li><a href="#what-i-still-need-to-be-careful-about" id="toc-what-i-still-need-to-be-careful-about" class="nav-link" data-scroll-target="#what-i-still-need-to-be-careful-about">What I still need to be careful about</a></li>
+  <li><a href="#questions-for-yannis" id="toc-questions-for-yannis" class="nav-link" data-scroll-target="#questions-for-yannis">Questions for Yannis</a></li>
+  <li><a href="#highlighted-passages-and-my-comments" id="toc-highlighted-passages-and-my-comments" class="nav-link" data-scroll-target="#highlighted-passages-and-my-comments">Highlighted passages and my comments</a></li>
   </ul>
 </nav>
     </div>
@@ -157,6 +156,12 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
+    <div>
+    <div class="quarto-title-meta-heading">Modified</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date-modified">October 20, 2026</p>
+    </div>
+  </div>
     
   </div>
   
@@ -165,76 +170,107 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="../index.html">← Reading list</a></p>
-<p>Edit this file in <strong>RStudio → Visual</strong>. Replace the placeholder text with your own notes, then save. The browser shows the saved notes.</p>
+<p><a href="../index.html">← Reading list</a> · <a href="../meeting-with-yannis.html">Meeting with Yannis</a></p>
+<p><strong>Elmachtoub, Grigas · 2022 · Management Science</strong></p>
 <p><a href="https://doi.org/10.1287/mnsc.2020.3922">Source / paper link</a></p>
-<section id="why-i-added-it" class="level2">
-<h2 class="anchored" data-anchor-id="why-i-added-it">Why I added it</h2>
-<p>I mainly want the basic predict-then-optimize idea and how it changes what the prediction model is trained for.</p>
+<!-- zotero-notes:start -->
+<p><em>Discussion draft, 20 October 2026. Prepared with reading assistance; to review before the meeting.</em></p>
+<p><strong>Source/version:</strong> Author manuscript, arXiv 1710.08005v5, November 19, 2020; library record says 2022.</p>
+<p><strong>Reading scope:</strong> Framework, illustrative routing example, SPO+ construction/consistency statement, experiments and conclusion. Proofs not independently checked.</p>
+<section id="my-short-version" class="level2">
+<h2 class="anchored" data-anchor-id="my-short-version">My short version</h2>
+<p>A more accurate prediction need not lead to a better decision. If a small error changes which supplier or route I choose, it can matter much more than a large error that leaves the choice unchanged. SPO measures the cost of the induced decision rather than ordinary prediction error. The practical appeal is that the final workflow can still be predict, then optimize; the training objective is what changes (PDF pp.&nbsp;1–5, 14).</p>
 </section>
-<section id="initial-note" class="level2">
-<h2 class="anchored" data-anchor-id="initial-note">Initial note</h2>
+<section id="how-the-paper-gets-there" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-paper-gets-there">How the paper gets there</h2>
+<p>The framework predicts coefficients in a linear objective over a known feasible set. Because the true SPO loss is difficult and potentially discontinuous, the authors derive the convex SPO+ surrogate and give consistency results under distributional conditions. Shortest-path and portfolio experiments compare it with least squares, absolute loss and random forests. The reported advantages are strongest under model misspecification; it is not a theorem that SPO+ beats all predictors in all settings (PDF pp.&nbsp;26–31).</p>
+</section>
+<section id="why-i-am-keeping-it-for-an-om-project" class="level2">
+<h2 class="anchored" data-anchor-id="why-i-am-keeping-it-for-an-om-project">Why I am keeping it for an OM project</h2>
+<p>For supply-chain research, I would use this to evaluate whether extra network information changes a sourcing or inventory action. Predicting an upstream link more accurately is only useful if the decision improves. A project could compare an audited extraction pipeline, a simple exposure score and decision-focused learning under missing tier-2 links. The outcome should be cost, fill rate and tail shortage, not just link-prediction accuracy.</p>
+</section>
+<section id="what-i-still-need-to-be-careful-about" class="level2">
+<h2 class="anchored" data-anchor-id="what-i-still-need-to-be-careful-about">What I still need to be careful about</h2>
+<p>A hidden network can change the feasible set or disruption constraints, whereas the basic framework focuses on unknown objective coefficients with known constraints. I cannot treat the original SPO guarantees as solving uncertain feasibility, rare correlated failures or distribution shift. The paper already suggests constraints and nonlinear objectives as future directions; later work must be checked.</p>
+</section>
+<section id="questions-for-yannis" class="level2">
+<h2 class="anchored" data-anchor-id="questions-for-yannis">Questions for Yannis</h2>
+<p>Can our uncertainty be represented honestly as an objective cost, or is it really about whether capacity exists? What simple, strong baseline would a decision-focused model need to beat to justify its extra complexity?</p>
+<!-- zotero-notes:end -->
+<!-- zotero-highlights:start -->
+</section>
+<section id="highlighted-passages-and-my-comments" class="level2">
+<h2 class="anchored" data-anchor-id="highlighted-passages-and-my-comments">Highlighted passages and my comments</h2>
+<p>Short passages from the PDF in my Zotero library. <strong>PDF page</strong> counts from the beginning of that file; the printed page is shown separately. Line-break hyphenation and PDF text spacing are normalized for readability.</p>
+<div class="reading-highlight highlight-mechanism">
+<p class="highlight-meta">
+<strong>Mechanism</strong> · PDF p.&nbsp;2 · printed p.&nbsp;2
+</p>
 <blockquote class="blockquote">
-<p>This is a preliminary note from the abstract/introduction. I will revise it after reading.</p>
+<p>
+minimize decision error, not prediction error
+</p>
 </blockquote>
-<p>When a prediction feeds an optimization problem, should the predictor be trained to minimise prediction error, or the decision error it induces?</p>
-</section>
-<section id="research-question" class="level2">
-<h2 class="anchored" data-anchor-id="research-question">Research question</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="setup-data" class="level2">
-<h2 class="anchored" data-anchor-id="setup-data">Setup / data</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="main-mechanism-identification" class="level2">
-<h2 class="anchored" data-anchor-id="main-mechanism-identification">Main mechanism / identification</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="main-results" class="level2">
-<h2 class="anchored" data-anchor-id="main-results">Main results</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="what-i-found-interesting" class="level2">
-<h2 class="anchored" data-anchor-id="what-i-found-interesting">What I found interesting</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="questions-i-still-have" class="level2">
-<h2 class="anchored" data-anchor-id="questions-i-still-have">Questions I still have</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="connections-to-other-papers" class="level2">
-<h2 class="anchored" data-anchor-id="connections-to-other-papers">Connections to other papers</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="notes-after-meeting-with-yannis" class="level2">
-<h2 class="anchored" data-anchor-id="notes-after-meeting-with-yannis">Notes after meeting with Yannis</h2>
-<p><span class="note-placeholder">Write your notes here… Replace this text in RStudio Visual Editor.</span></p>
-</section>
-<section id="reading-log" class="level2">
-<h2 class="anchored" data-anchor-id="reading-log">Reading log</h2>
-<ul>
-<li>Started: <em>Add a date when you begin.</em></li>
-<li>Finished: <em>Add a date when you finish.</em></li>
-</ul>
-<!-- zotero-reading:start -->
-<div class="callout callout-style-default callout-tip callout-titled">
+<p>
+<strong>My comment.</strong> Core objective: evaluate a prediction by the operating action it induces.
+</p>
+</div>
+<div class="reading-highlight highlight-limit">
+<p class="highlight-meta">
+<strong>Scope / limitation</strong> · PDF p.&nbsp;4 · printed p.&nbsp;4
+</p>
+<blockquote class="blockquote">
+<p>
+continuous and symmetric about its mean
+</p>
+</blockquote>
+<p>
+<strong>My comment.</strong> Consistency uses distributional conditions; not an unrestricted guarantee.
+</p>
+</div>
+<div class="reading-highlight highlight-finding">
+<p class="highlight-meta">
+<strong>Finding</strong> · PDF p.&nbsp;28 · printed p.&nbsp;28
+</p>
+<blockquote class="blockquote">
+<p>
+the absolute loss, least squares, and SPO+ methods perform comparably
+</p>
+</blockquote>
+<p>
+<strong>My comment.</strong> Read the benchmark carefully: SPO+ does not win in every setting.
+</p>
+</div>
+<div class="reading-highlight highlight-question">
+<p class="highlight-meta">
+<strong>Research question</strong> · PDF p.&nbsp;31 · printed p.&nbsp;31
+</p>
+<blockquote class="blockquote">
+<p>
+handling unknown parameters in the constraints
+</p>
+</blockquote>
+<p>
+<strong>My comment.</strong> Hidden capacity or links may change feasibility, outside the basic objective-coefficient setup.
+</p>
+</div>
+<!-- zotero-highlights:end -->
+<div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Read in Zotero
+<span class="screen-reader-only">Note</span>Why I originally added this
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
 <div id="callout-1" class="callout-1-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p>A PDF is attached to this paper in my Zotero reading-list collection. I read and annotate there, then export my notes to this page. See <a href="../workflow.html">the reading workflow</a>.</p>
+<p>I mainly want the basic predict-then-optimize idea and how it changes what the prediction model is trained for.</p>
 </div>
 </div>
 </div>
-<!-- zotero-reading:end -->
 
 
 </section>
