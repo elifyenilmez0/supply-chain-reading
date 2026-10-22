@@ -100,6 +100,10 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Reading list</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="./read-closely.html"> 
+<span class="menu-text">Read closely</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="./field-map.html"> 
 <span class="menu-text">Field map</span></a>
   </li>  
@@ -148,7 +152,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#restructuring-global-supply-chains-navigating-challenges-of-the-covid-19-pandemic-and-beyond" id="toc-restructuring-global-supply-chains-navigating-challenges-of-the-covid-19-pandemic-and-beyond" class="nav-link" data-scroll-target="#restructuring-global-supply-chains-navigating-challenges-of-the-covid-19-pandemic-and-beyond">11. Restructuring Global Supply Chains: Navigating Challenges of the COVID-19 Pandemic and Beyond</a></li>
   <li><a href="#managing-global-sourcing-inventory-performance" id="toc-managing-global-sourcing-inventory-performance" class="nav-link" data-scroll-target="#managing-global-sourcing-inventory-performance">12. Managing Global Sourcing: Inventory Performance</a></li>
   <li><a href="#on-the-value-of-mitigation-and-contingency-strategies-for-managing-supply-chain-disruption-risks" id="toc-on-the-value-of-mitigation-and-contingency-strategies-for-managing-supply-chain-disruption-risks" class="nav-link" data-scroll-target="#on-the-value-of-mitigation-and-contingency-strategies-for-managing-supply-chain-disruption-risks">13. On the Value of Mitigation and Contingency Strategies for Managing Supply Chain Disruption Risks</a></li>
-  <li><a href="#smart-predict-then-optimize" id="toc-smart-predict-then-optimize" class="nav-link" data-scroll-target="#smart-predict-then-optimize">14. Smart Predict, then Optimize</a></li>
+  <li><a href="#smart-predict-then-optimize-original-selection-method-background" id="toc-smart-predict-then-optimize-original-selection-method-background" class="nav-link" data-scroll-target="#smart-predict-then-optimize-original-selection-method-background">14. Smart Predict, then Optimize — original selection; method background</a></li>
   <li><a href="#chinese-firms-are-wrapping-their-supply-chains-around-the-globe" id="toc-chinese-firms-are-wrapping-their-supply-chains-around-the-globe" class="nav-link" data-scroll-target="#chinese-firms-are-wrapping-their-supply-chains-around-the-globe">15. Chinese firms are wrapping their supply chains around the globe</a></li>
   <li><a href="#building-an-alliance-to-map-global-supply-networks" id="toc-building-an-alliance-to-map-global-supply-networks" class="nav-link" data-scroll-target="#building-an-alliance-to-map-global-supply-networks">16. Building an alliance to map global supply networks</a></li>
   <li><a href="#outside-the-box-how-globalization-changed-from-moving-stuff-to-spreading-ideas" id="toc-outside-the-box-how-globalization-changed-from-moving-stuff-to-spreading-ideas" class="nav-link" data-scroll-target="#outside-the-box-how-globalization-changed-from-moving-stuff-to-spreading-ideas">17. Outside the Box: How Globalization Changed from Moving Stuff to Spreading Ideas</a></li>
@@ -187,10 +191,10 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p><a href="./field-map.html">Reading map</a> · <a href="./meeting-prep-tr.html">Türkçe hazırlık</a></p>
+<p><a href="./read-closely.html">Original Read closely 19</a> · <a href="./field-map.html">Reading map</a> · <a href="./meeting-prep-tr.html">Türkçe hazırlık</a></p>
 <section id="what-i-want-to-discuss" class="level2">
 <h2 class="anchored" data-anchor-id="what-i-want-to-discuss">What I want to discuss</h2>
-<p>I am still trying to work out where an interesting OM question might be. These readings helped me separate a few things that I had been putting together: how shocks spread, how firms change their sourcing, and whether those changes actually improve performance. I also want to understand what AI changes beyond forecasting.</p>
+<p>I am still trying to work out where an interesting OM question might be. These readings helped me separate a few things that I had been putting together: how shocks spread, how firms change their sourcing, and whether those changes actually improve performance. I also want to understand what AI changes in supply-chain decisions, such as sourcing, inventory and planning.</p>
 <p>My current thought is that the basic decisions are familiar, but the connections between them are important. A sourcing decision affects inventory and recovery. It can also affect firms further along the network. AI may make analysis easier while leaving capacity, incentives and implementation as the difficult parts.</p>
 <p>I have not picked a topic yet. For this meeting, I mainly want to check whether I am connecting the papers sensibly and decide where to read further.</p>
 </section>
@@ -201,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>Alfaro–Chor, Dhyne and Niu:</strong> direct trade flows, indirect exposure and firm-level sourcing actions show different parts of the story.</li>
 <li><strong>The two Jain papers:</strong> inventory investment and recovery speed are different outcomes. Diversification need not help both.</li>
 <li><strong>Carvalho, Inoue and Guan:</strong> evidence around an actual shock is different from a simulation under chosen assumptions.</li>
-<li><strong>SPO, Ban and Bertsimas versus ORLM and OptiGuide:</strong> learning a better decision is different from helping someone formulate or query a model.</li>
+<li><strong>AI in a supply-chain decision:</strong> OptiGuide provides a concrete application. SPO, Ban and Bertsimas are method references; ORLM and the broad AI–OM framework are optional background, not the core reading agenda.</li>
 </ul>
 </section>
 <section id="read-closely-notes-to-talk-through" class="level2">
@@ -219,7 +223,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="endogenous-production-networks-under-supply-chain-uncertainty">2. Endogenous Production Networks Under Supply Chain Uncertainty</h3>
 <p>Choosing safer suppliers can mean giving up some productivity. The part I want to remember is that this can be a sensible trade-off, not necessarily a mistake. Lower output and lower welfare are not the same thing here.</p>
 <p><strong>How should I compare the output loss with the gain in stability?</strong></p>
-<p>Not necessarily. A risk-averse household values stability. Lower expected GDP and lower welfare are different claims. The welfare benchmark matters before proposing a subsidy.</p>
+<p>A risk-averse household values stability. Lower expected GDP and lower welfare are different claims. The welfare benchmark matters before proposing a subsidy.</p>
 <p>Acemoglu–Tahbaz-Salehi emphasizes a network externality; this paper shows that a move toward safety need not itself be a market failure.</p>
 <p><a href="./notes/endogenous-production-networks-under-supply-chain-uncertainty.html">Paper notes</a>.</p>
 </section>
@@ -243,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="supply-network-formation-and-fragility">5. Supply Network Formation and Fragility</h3>
 <p>Having alternatives for one input is useful, but the firm still needs all its essential inputs. In a deep network, a small deterioration across many relationships can therefore matter a lot. I still need to get more comfortable with the threshold argument and how much carries over to a small, finite network.</p>
 <p><strong>How should I interpret the threshold result for a real, finite network?</strong></p>
-<p>No.&nbsp;It establishes a threshold mechanism in a large/deep-network model. Applying it requires finite-network data and a check of its essential-input and failure assumptions.</p>
+<p>It establishes a threshold mechanism in a large/deep-network model. Applying it requires finite-network data and a check of its essential-input and failure assumptions.</p>
 <p>Network Origins has amplification on a given input–output network; this paper adds reliability and strategic relationship investment.</p>
 <p><a href="./notes/supply-network-formation-and-fragility.html">Paper notes</a>.</p>
 </section>
@@ -299,7 +303,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="managing-global-sourcing-inventory-performance">12. Managing Global Sourcing: Inventory Performance</h3>
 <p>I need to distinguish the number of units in inventory from the money tied up in them. Global sourcing can mean longer lead times and more units, but cheaper purchasing prices. In this sample the stock effect dominates. It makes the link between sourcing and working capital quite clear.</p>
 <p><strong>How much can I interpret these inventory estimates causally?</strong></p>
-<p>No.&nbsp;The local working paper uses matched sea-import and accounting data with simultaneous-equation assumptions. I would explain the mechanism and qualify the sample-specific estimates.</p>
+<p>The local working paper uses matched sea-import and accounting data with simultaneous-equation assumptions. I would explain the mechanism and qualify the sample-specific estimates.</p>
 <p>The recovery paper studies a different outcome and finds diversification associated with slower recovery. This does not contradict a lower inventory burden in a different setting.</p>
 <p><a href="./notes/managing-global-sourcing-inventory-performance.html">Paper notes</a>.</p>
 </section>
@@ -311,8 +315,8 @@ ul.task-list li input[type="checkbox"] {
 <p>Base–surge balances cost and responsiveness to demand; Tomlin explicitly treats supplier disruption. Kopytov moves reliability choice to an economy-wide welfare framework.</p>
 <p><a href="./notes/on-the-value-of-mitigation-and-contingency-strategies-for-managing-supply-chain-disruption.html">Paper notes</a>.</p>
 </section>
-<section id="smart-predict-then-optimize" class="level3">
-<h3 class="anchored" data-anchor-id="smart-predict-then-optimize">14. Smart Predict, then Optimize</h3>
+<section id="smart-predict-then-optimize-original-selection-method-background" class="level3">
+<h3 class="anchored" data-anchor-id="smart-predict-then-optimize-original-selection-method-background">14. Smart Predict, then Optimize — original selection; method background</h3>
 <p>A small prediction error can be costly if it changes the decision, while a larger error may leave the decision unchanged. SPO trains with that distinction in mind. The known-feasible-set assumption is something I need to watch if I try to use it for uncertain supply capacity.</p>
 <p><strong>Would uncertain backup capacity fit the original SPO framework?</strong></p>
 <p>The base framework predicts linear objective coefficients on a known feasible set. Missing capacity or unknown constraints are not automatically covered. I must check that the mathematical representation matches the real uncertainty.</p>
@@ -323,7 +327,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="chinese-firms-are-wrapping-their-supply-chains-around-the-globe">15. Chinese firms are wrapping their supply chains around the globe</h3>
 <p>Moving a factory abroad does not mean moving away from its existing production ecosystem. Ownership, equipment and intermediate inputs can still connect it to China. I would use the examples to motivate a question, then look for firmer evidence in the trade papers.</p>
 <p><strong>What would distinguish relocation from a change in upstream dependence?</strong></p>
-<p>No.&nbsp;Actual local production, Chinese ownership and Chinese intermediate inputs can coexist. Transshipment is a separate claim requiring evidence.</p>
+<p>Actual local production, Chinese ownership and Chinese intermediate inputs can coexist. Transshipment is a separate claim requiring evidence.</p>
 <p>Use alongside Alfaro–Chor’s trade evidence and Niu’s sourcing actions, with clear distinctions in evidentiary strength.</p>
 <p><a href="./notes/chinese-firms-are-wrapping-their-supply-chains-around-the-globe.html">Paper notes</a>.</p>
 </section>
@@ -331,7 +335,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="building-an-alliance-to-map-global-supply-networks">16. Building an alliance to map global supply networks</h3>
 <p>Before deciding what to do with a supply network, we need to know what we can actually observe. VAT, payment and shipping data show different parts of it. The difficult part is not only filling in missing links: a link still tells us little about the relevant product or available capacity.</p>
 <p><strong>Which of these network data could we realistically access?</strong></p>
-<p>Usually not. Administrative and bank microdata require access arrangements. Commercial data may be selective. A firm-level edge also does not reveal the actual part or spare capacity.</p>
+<p>Administrative and bank microdata require access arrangements. Commercial data may be selective. A firm-level edge also does not reveal the actual part or spare capacity.</p>
 <p>Lee–So–Tang studies the value of a specific demand signal; this article concerns network observability. SPO provides one way to think about decision value.</p>
 <p><a href="./notes/building-an-alliance-to-map-global-supply-networks.html">Paper notes</a>.</p>
 </section>
@@ -347,7 +351,7 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="global-supply-chain-effects-of-covid-19-control-measures">18. Global supply-chain effects of COVID-19 control measures</h3>
 <p>Restarting one region may not be enough if its suppliers are still constrained. The duration and sequence of recovery matter. I need to remember that the large losses here come from model scenarios, not a direct measurement of what COVID caused.</p>
 <p><strong>How should I interpret the large losses in the scenarios?</strong></p>
-<p>No.&nbsp;They are outcomes of 39 idealized scenarios under the model’s constraints and recovery assumptions. They illustrate sensitivity to duration and spread rather than directly measure a realized causal treatment effect.</p>
+<p>They are outcomes of 39 idealized scenarios under the model’s constraints and recovery assumptions. They illustrate sensitivity to duration and spread rather than directly measure a realized causal treatment effect.</p>
 <p>Carvalho studies an actual shock; Inoue simulates firm-network propagation. These are distinct forms of evidence.</p>
 <p><a href="./notes/global-supply-chain-effects-of-covid-19-control-measures.html">Paper notes</a>.</p>
 </section>
